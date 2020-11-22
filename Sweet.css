@@ -1,0 +1,196 @@
+nav {
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #53917E;
+    margin: 0px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    background-image: url('../Resources/istockphoto-959296204-1024x1024 edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 60px;
+    color: #F57B47;
+}
+
+header h4 {
+    font-size: 25px;
+    margin-top: 0px;
+    color: #F57B47;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFC640;
+    background-color: #53917E;
+    padding-top: 50px;
+}
+
+#goal {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#mission {
+    grid-column: 1 / span 1;
+}
+
+#mission h2,
+#mission h5,
+#vision h2,
+#vision h5,
+.goal h2,
+.goal h5 {
+    text-align: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+#vision {
+    grid-column: 2 / span 1;
+}
+
+.goal {
+    grid-column: 3 / span 1;
+}
+
+#mission,
+#vision,
+.goal {
+    margin: 5px 20px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+#mission:hover,
+#vision:hover,
+.goal:hover {
+    color: #FF524F;
+    background-color: #45B3F5;
+    transition: color 500ms ease-in 30ms,
+    background-color 500ms ease-in 30ms,
+    border 100ms linear 30ms;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+
+html,
+main,
+header,
+footer {
+    border: 1px solid white;
+}
+
+#popular_products section {
+    display: grid;
+    grid-template-columns: 820px;
+}
+
+#popular_products #bed1:hover {
+    color: red;
+    background-color: goldenrod;
+    transition: color 500ms ease-in 30ms,
+    background-color 500ms ease-in 30ms,
+    border 500ms linear 70ms;
+    border-bottom: 5px solid darkred;
+    border-left: 5px solid darkred;
+    font-weight: bold;
+}
+
+#popular_products #bed2:hover {
+    color: #34CF34;
+    background-color: purple;
+    transition: color 500ms ease-in 30ms,
+    background-color 500ms ease-in 30ms,
+    border 500ms linear 70ms;
+    border-top: 5px solid darkred;
+    border-right: 5px solid darkred;
+    font-weight: bold;
+}
+
+#popular_products #bed3:hover {
+    color: yellow;
+    background-color: #6E6EFA;
+    transition: color 500ms ease-in 30ms,
+    background-color 500ms ease-in 30ms,
+    border 100ms linear 30ms;
+    border-bottom: 5px solid darkred;
+    border-left: 5px solid darkred;
+    font-weight: bold;
+}
+
+#popular_products section img {
+    margin: 20px;
+}
+
+#popular_products section figcaption {
+    margin: auto 20px;
+    text-align: center;
+    line-height: 35px;
+    word-spacing: 7px;
+    padding: 40px;
+}
+
+#popular_products section {
+    display: inline-flex;
+}
+
+.mat1 figcaption{
+    padding: 30px;
+}
+
+#order {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+#order ul li {
+    list-style: "--> ";
+}
+
+#order .ending {
+    text-align: center;
+}
+
+footer {
+    background-image: url('../Resources/istockphoto-1070903684-1024x1024 edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 17px;
+    color: #F7B311;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer section {
+    margin: auto 0;
+}
+
+footer .follow {
+    display: inline-flex;
+}
+
+footer section span {
+    margin: 0px 20px;
+}
